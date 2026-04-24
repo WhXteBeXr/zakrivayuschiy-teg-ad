@@ -1,0 +1,27 @@
+{
+  "name": "web-journey-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/WhXteBeXr/web-journey-showcase#readme",
+  "bugs": {
+    "url": "https://github.com/WhXteBeXr/web-journey-showcase/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhXteBeXr/web-journey-showcase.git"
+  },
+  "license": "MIT",
+  "author": "WhXteBeXr",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix"
+  },
+  "dependencies": {
+    "prettier": "^3.8.3",
+    "stylelint": "^17.9.0"
+  }
+}
