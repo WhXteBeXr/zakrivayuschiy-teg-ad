@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: 'Inter-Variable';
+  --accent-font: 'PressStart2P-Regular';
+  --main-card-font-weight: 400;
+  --card-title-font-weight: 700;
+  --accent-color: #000;
+  --bg-color: #fff;
+  --body-pattern:
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --text-stroke-color: #fff;
+  --logo-font-size: clamp(3rem, 2.7rem + 1.5vw, 4rem);
+  --title-font-size: clamp(0.6rem, 0.67rem + 0.5vw, 1.5rem);
+  --global-border: 2px solid var(--accent-color);
+}
