@@ -3,7 +3,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # npm
-./node_modules
+.idea
+.node_modules
 
 # User-specific stuff
 .idea/**/workspace.xml
