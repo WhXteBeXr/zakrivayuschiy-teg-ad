@@ -14,5 +14,6 @@
   --text-stroke-color: #fff;
   --logo-font-size: clamp(3rem, 2.7rem + 1.5vw, 4rem);
   --title-font-size: clamp(0.6rem, 0.67rem + 0.5vw, 1.5rem);
+  --base-page-font-size: clamp(0.4rem, 16px, 1.5rem);
   --global-border: 2px solid var(--accent-color);
 }
